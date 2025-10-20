@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react';
-import { useLoaderData } from 'react-router';
+import { useLoaderData, useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
+import LazyImage from '../Component/LazyImage';
 
 const AppDetails = () => {
     const app = useLoaderData();
+    const navigate = useNavigate();
     const [isInstalled, setIsInstalled] = useState(false);
 
     // Check if app is already installed when component mounts
@@ -49,14 +51,24 @@ const AppDetails = () => {
 
     return (
         <div className="max-w-4xl mx-auto p-6 bg-gray-50 min-h-screen">
+            <div className="mb-4">
+                <button
+                    onClick={() => (window.history.length > 1 ? navigate(-1) : navigate('/products'))}
+                    aria-label="Go back"
+                    className="inline-flex items-center gap-2 px-3 py-2 rounded-md bg-white border text-sm shadow-sm transform transition-all duration-150 hover:-translate-x-1 hover:bg-gray-50 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500"
+                >
+                    <span aria-hidden className="text-lg">←</span>
+                    <span className="font-medium">Back</span>
+                </button>
+            </div>
             {/* Main Card */}
             <div className="bg-white rounded-lg shadow-sm p-6 mb-6">
                 {/* Header Section */}
                 <div className="flex flex-col md:flex-row gap-6 mb-6">
                     {/* App Icon */}
                     <div className="flex-shrink-0">
-                        <img 
-                            src={app.image} 
+                        <LazyImage
+                            src={app.image}
                             alt={app.title}
                             className="w-32 h-32 rounded-2xl"
                         />
