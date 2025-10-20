@@ -141,21 +141,31 @@ const AppDetails = () => {
             <div className="bg-white rounded-lg shadow-sm p-6 mb-6">
                 <h3 className="text-xl font-semibold mb-4 text-gray-900">Ratings</h3>
                 <div className="space-y-3">
-                    {app.ratings?.map((rating, index) => {
-                        const percentage = totalRatings > 0 ? (rating.count / totalRatings) * 100 : 0;
-                        return (
-                            <div key={index} className="flex items-center gap-4">
-                                <span className="text-sm font-medium text-gray-600 w-12">{rating.name}</span>
-                                <div className="flex-1 bg-gray-200 rounded-full h-4">
-                                    <div 
-                                        className="bg-orange-500 h-4 rounded-full transition-all duration-300"
-                                        style={{ width: `${percentage}%` }}
-                                    ></div>
+                    {(() => {
+                        // create a sorted copy so we render highest stars first (e.g., "5 star" before "1 star")
+                        const sortedRatings = (app.ratings || []).slice().sort((a, b) => {
+                            // extract leading number from name like '5 star'
+                            const na = parseInt(a.name, 10) || 0;
+                            const nb = parseInt(b.name, 10) || 0;
+                            return nb - na; // descending
+                        });
+
+                        return sortedRatings.map((rating, index) => {
+                            const percentage = totalRatings > 0 ? (rating.count / totalRatings) * 100 : 0;
+                            return (
+                                <div key={index} className="flex items-center gap-4">
+                                    <span className="text-sm font-medium text-gray-600 w-12">{rating.name}</span>
+                                    <div className="flex-1 bg-gray-200 rounded-full h-4">
+                                        <div 
+                                            className="bg-orange-500 h-4 rounded-full transition-all duration-300"
+                                            style={{ width: `${percentage}%` }}
+                                        ></div>
+                                    </div>
+                                    <span className="text-sm text-gray-500 w-16 text-right">{rating.count}</span>
                                 </div>
-                                <span className="text-sm text-gray-500 w-16 text-right">{rating.count}</span>
-                            </div>
-                        );
-                    })}
+                            );
+                        });
+                    })()}
                 </div>
                 
                 {/* X-axis numbers */}
