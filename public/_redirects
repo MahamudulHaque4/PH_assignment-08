@@ -1,0 +1,15 @@
+# Handle client-side routing
+# All routes should serve index.html for the React Router to handle
+/*    /index.html   200
+
+# Handle specific routes
+/products/* /index.html 200
+/app/* /index.html 200
+/installation /index.html 200
+
+# API fallback (if needed)
+/api/* 404
+
+# Handle 404 errors - serve index.html for any unknown route
+# This ensures React Router can handle the routing
+* /index.html 200
