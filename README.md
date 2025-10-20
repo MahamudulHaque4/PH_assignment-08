@@ -1,16 +1,13 @@
-# React + Vite
+HERO.IO - Productivity Apps Store A simple React web application for browsing and managing productivity apps.The Name of this App is Hero.io
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Demo:visionary-yeot-d6d6ca.netlify.app
 
-Currently, two official plugins are available:
+Description HERO.IO is a productivity apps marketplace where users can browse different apps, view detailed information, and track their installations. The app features a clean interface with search and sorting capabilities.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features Browse trending productivity apps View detailed app information with ratings Install/uninstall apps with notifications Search and sort functionality Responsive design for all devices Technologies Used React - Frontend framework JavaScript - Programming language HTML - Markup structure TailwindCSS - CSS framework for styling DaisyUI - Component library for Tailwind Vite - Build tool and development server React Router - Client-side routing React Toastify - Toast notifications How to Run Clone the repository
 
-## React Compiler
+git clone cd hero-app Install dependencies
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+npm install Start the development server
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+npm run dev Build for Production npm run build Pages Home - Hero section and featured apps Apps - All available apps with search/sort App Details - Detailed view of individual apps Installation - Manage installed apps Built with React, TailwindCSS, DaisyUI, HTML, and JavaScript
