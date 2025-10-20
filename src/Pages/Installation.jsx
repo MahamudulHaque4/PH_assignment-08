@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
+import { toast } from 'react-toastify';
 
 const Installation = () => {
     const [installedApps, setInstalledApps] = useState([]);
@@ -34,6 +35,8 @@ const Installation = () => {
         const updatedApps = installedApps.filter(app => app.id !== appId);
         setInstalledApps(updatedApps);
         localStorage.setItem('installedApps', JSON.stringify(updatedApps));
+        // Show a toast notification to confirm uninstall
+        toast.info('App uninstalled successfully', { position: 'top-right', autoClose: 2500 });
     };
 
     return (
