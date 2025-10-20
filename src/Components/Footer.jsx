@@ -19,40 +19,40 @@ const Footer = () => {
                             </span>
                         </div>
                         <p className="text-gray-300 text-sm leading-relaxed">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Incidunt esse autem at, laudantium dolores eaque expedita 
-                            quidem eveniet, mollitia officiis aut porro harum minus 
-                            distinctio ab ducimus labore laborum repellendus!
+                            Hero Apps curates the best productivity and utility apps to help
+                            you focus, plan, and build better habits. We highlight
+                            top-rated tools chosen for usability, performance, and
+                            real user value — discover apps trusted by millions.
                         </p>
                     </div>
 
                     {/* About Hero Apps - Column 1 */}
                     <div>
-                        <h3 className="text-white font-semibold text-lg mb-6">About Hero Apps</h3>
+                        <h3 className="text-white font-semibold text-lg mb-6">Company</h3>
                         <ul className="space-y-3 text-gray-300 text-sm">
                             <li>
                                 <a href="#" className="hover:text-white transition-colors">
-                                    Newsroom
+                                    About Us
                                 </a>
                             </li>
                             <li>
                                 <a href="#" className="hover:text-white transition-colors">
-                                    Leadership
+                                    Careers
                                 </a>
                             </li>
                             <li>
                                 <a href="#" className="hover:text-white transition-colors">
-                                    Lorem, ipsum.
+                                    Press
                                 </a>
                             </li>
                             <li>
                                 <a href="#" className="hover:text-white transition-colors">
-                                    Lorem ipsum dolor sit.
+                                    Contact
                                 </a>
                             </li>
                             <li>
                                 <a href="#" className="hover:text-white transition-colors">
-                                    Newsroom
+                                    Blog
                                 </a>
                             </li>
                         </ul>
@@ -60,31 +60,31 @@ const Footer = () => {
 
                     {/* About Hero Apps - Column 2 */}
                     <div>
-                        <h3 className="text-white font-semibold text-lg mb-6">About Hero Apps</h3>
+                        <h3 className="text-white font-semibold text-lg mb-6">Resources</h3>
                         <ul className="space-y-3 text-gray-300 text-sm">
                             <li>
                                 <a href="#" className="hover:text-white transition-colors">
-                                    Newsroom
+                                    Help Center
                                 </a>
                             </li>
                             <li>
                                 <a href="#" className="hover:text-white transition-colors">
-                                    Leadership
+                                    Developers
                                 </a>
                             </li>
                             <li>
                                 <a href="#" className="hover:text-white transition-colors">
-                                    Lorem, ipsum.
+                                    Privacy Policy
                                 </a>
                             </li>
                             <li>
                                 <a href="#" className="hover:text-white transition-colors">
-                                    Lorem ipsum dolor sit.
+                                    Terms of Service
                                 </a>
                             </li>
                             <li>
                                 <a href="#" className="hover:text-white transition-colors">
-                                    Newsroom
+                                    Sitemap
                                 </a>
                             </li>
                         </ul>

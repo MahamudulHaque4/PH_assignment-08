@@ -4,7 +4,7 @@ import downloadIcon from '../assets/icon-downloads.png';
 import ratingIcon from '../assets/icon-ratings.png';
 
 const ProductCards = ({product}) => {
- const {image, title, downloads, ratingAvg, id} = product;
+ const {image, title, downloads, ratingAvg, id, description} = product;
  
  const formatDownloads = (num) => {
     if (num >= 1000000) return Math.floor(num/1000000) + 'M';
@@ -22,7 +22,7 @@ const ProductCards = ({product}) => {
                         <LazyImage
                             src={image}
                             alt={title}
-                            className="w-full h-48"
+                            className="w-full h-48 object-cover"
                         />
                     </div>
                 </div>
@@ -32,7 +32,7 @@ const ProductCards = ({product}) => {
             </figure>
             <div className="card-body px-6 pb-6">
                 <h2 className="card-title text-lg font-semibold text-gray-900 mb-2">{title}</h2>
-                <p className="text-gray-600 text-sm mb-4">A productivity app designed to help you focus and manage your time effectively</p>
+                <p className="text-gray-600 text-sm mb-4">{description ? (description.length > 120 ? description.slice(0,120) + '...' : description) : 'A useful productivity tool that helps you manage tasks and time.'}</p>
                 
                 <div className="flex items-center justify-between">
                     <div className="flex items-center gap-2">
