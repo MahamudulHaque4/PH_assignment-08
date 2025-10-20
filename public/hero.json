@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://i.ibb.co.com/d4WCp989/forest.webp",
+    "title": "Forest: Focus for Productivity",
+    "companyName": "SeekrTech",
+    "id": 1,
+    "description": "Stay focused and plant virtual trees as you avoid distractions. The more you focus, the more your forest grows.",
+    "size": 45,
+    "reviews": 7200,
+    "ratingAvg": 4.9,
+    "downloads": 7000000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 5000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/wZ9Q3Vbh/todo.webp",
+    "title": "SmPlan: ToDo List with Reminder",
+    "companyName": "SmartLab Studios",
+    "id": 2,
+    "description": "Create tasks, set reminders, and manage your schedule easily with smart notifications and progress tracking.",
+    "size": 38,
+    "reviews": 5400,
+    "ratingAvg": 4.9,
+    "downloads": 8000000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 3800 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/hxqKF1SN/study.webp",
+    "title": "FLIP - Focus Timer for Study",
+    "companyName": "Rinasoft Inc.",
+    "id": 3,
+    "description": "Stay motivated to study and track your time effectively using the Pomodoro technique with fun visuals.",
+    "size": 52,
+    "reviews": 4800,
+    "ratingAvg": 4.3,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 1800 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/TDV5x1zh/cat.webp",
+    "title": "Pomocat - Cute Pomodoro Timer",
+    "companyName": "MeowWorks Studio",
+    "id": 4,
+    "description": "A cute productivity companion that helps you manage time and take breaks using an adorable cat theme.",
+    "size": 30,
+    "reviews": 2900,
+    "ratingAvg": 4.0,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 320 },
+      { "name": "2 star", "count": 370 },
+      { "name": "3 star", "count": 720 },
+      { "name": "4 star", "count": 730 },
+      { "name": "5 star", "count": 760 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/qYrYRhDD/time.webp",
+    "title": "Time Planner: Schedule & Tasks",
+    "companyName": "ALStudio",
+    "id": 5,
+    "description": "Organize your time with a detailed planner that combines calendar, tasks, and goals tracking in one app.",
+    "size": 68,
+    "reviews": 3800,
+    "ratingAvg": 4.3,
+    "downloads": 4000000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 340 },
+      { "name": "3 star", "count": 610 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 1650 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/qYTJ7CV6/flip.webp",
+    "title": "Flip Clock: World Clock",
+    "companyName": "WorldTime Labs",
+    "id": 6,
+    "description": "Minimalistic flip clock with timezone support, countdowns, and stylish design for desktop or mobile.",
+    "size": 27,
+    "reviews": 2100,
+    "ratingAvg": 4.0,
+    "downloads": 9000000,
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 350 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/3m8yJGJk/mm.webp",
+    "title": "Morning Habits - Daily Routine",
+    "companyName": "RiseUp Labs",
+    "id": 7,
+    "description": "Start your day right with habit tracking, morning challenges, and motivational routines.",
+    "size": 49,
+    "reviews": 2300,
+    "ratingAvg": 4.2,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 310 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 620 },
+      { "name": "5 star", "count": 620 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Q31QnGBG/for.webp",
+    "title": "Focus Plant: Pomodoro Forest",
+    "companyName": "SeekrTech",
+    "id": 8,
+    "description": "Grow virtual plants as you stay focused. Combine productivity with a fun, eco-friendly experience.",
+    "size": 46,
+    "reviews": 5600,
+    "ratingAvg": 4.4,
+    "downloads": 7000000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 2600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/8nVBvmXp/aaa.webp",
+    "title": "Alarmy - Alarm Clock & Sleep",
+    "companyName": "Delight Room Co.",
+    "id": 9,
+    "description": "A creative alarm clock that forces you to solve challenges before turning it off. Perfect for deep sleepers.",
+    "size": 73,
+    "reviews": 4900,
+    "ratingAvg": 4.3,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 320 },
+      { "name": "2 star", "count": 390 },
+      { "name": "3 star", "count": 780 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 2210 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/QF1VRGD4/sss.webp",
+    "title": "To-Do List: Schedule Planner",
+    "companyName": "ToDoSoft",
+    "id": 10,
+    "description": "A lightweight to-do list app that helps you manage daily tasks and stay organized effortlessly.",
+    "size": 35,
+    "reviews": 4000,
+    "ratingAvg": 4.2,
+    "downloads": 7000000,
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 340 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 1610 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/d4X7ZNs5/ww.webp",
+    "title": "WaterDo: To-Do List & Schedule",
+    "companyName": "SeekrTech",
+    "id": 11,
+    "description": "Gamified task management where you pop water bubbles as you complete tasks for fun productivity.",
+    "size": 57,
+    "reviews": 4100,
+    "ratingAvg": 4.5,
+    "downloads": 4000000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 220 },
+      { "name": "3 star", "count": 560 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 2140 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/VcTN6z3T/tt.webp",
+    "title": "Taskito: To-Do List & Planner",
+    "companyName": "Taskito Labs",
+    "id": 12,
+    "description": "Combine tasks, reminders, and notes in a clean timeline view for effortless productivity.",
+    "size": 62,
+    "reviews": 3300,
+    "ratingAvg": 4.1,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 270 },
+      { "name": "2 star", "count": 350 },
+      { "name": "3 star", "count": 580 },
+      { "name": "4 star", "count": 880 },
+      { "name": "5 star", "count": 1220 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/9mvGQ9k6/dd.webp",
+    "title": "Disciplined - Habit Tracker",
+    "companyName": "HabitFlow",
+    "id": 13,
+    "description": "Track habits, build streaks, and maintain consistency with a minimal interface and progress stats.",
+    "size": 53,
+    "reviews": 5400,
+    "ratingAvg": 4.9,
+    "downloads": 6000000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 3800 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/KpqxSLL5/rr.webp",
+    "title": "Routine Planner - Habit Tracker",
+    "companyName": "DailyFlow Apps",
+    "id": 14,
+    "description": "Design your ideal routine with goal tracking, statistics, and reminders to keep you consistent.",
+    "size": 47,
+    "reviews": 4500,
+    "ratingAvg": 4.8,
+    "downloads": 8000000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 430 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 2740 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/XZQ4d3SN/xx.webp",
+    "title": "Time Timer: Visual Productivity",
+    "companyName": "TimeTimer LLC",
+    "id": 15,
+    "description": "A visual time management tool that helps improve focus by showing time as a visual countdown.",
+    "size": 44,
+    "reviews": 3700,
+    "ratingAvg": 5.0,
+    "downloads": 7000000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 2300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/pvqV8bnn/hhhhhh.webp",
+    "title": "YourHour - ScreenTime App",
+    "companyName": "Mindefy Labs",
+    "id": 16,
+    "description": "Track your screen usage, analyze app habits, and regain control of your time effectively.",
+    "size": 61,
+    "reviews": 2400,
+    "ratingAvg": 4.6,
+    "downloads": 1000000,
+    "ratings": [
+      { "name": "1 star", "count": 130 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 360 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1110 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/tT5PfhDN/hab.webp",
+    "title": "HabitNow: Daily Routine Planner",
+    "companyName": "HabitNow Studio",
+    "id": 17,
+    "description": "Plan your day, track goals, and stay consistent with a customizable routine manager.",
+    "size": 58,
+    "reviews": 3800,
+    "ratingAvg": 4.9,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 2310 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/MyQL74R9/m.webp",
+    "title": "Motivated: Habit Tracker",
+    "companyName": "MindMuse Inc.",
+    "id": 18,
+    "description": "Set goals and stay motivated with streaks, badges, and daily habit insights.",
+    "size": 39,
+    "reviews": 2500,
+    "ratingAvg": 4.1,
+    "downloads": 4000000,
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 680 },
+      { "name": "5 star", "count": 760 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/C5ndFKH0/ll.webp",
+    "title": "Listok: To-do List & Notes",
+    "companyName": "Listok Studio",
+    "id": 19,
+    "description": "A simple and elegant checklist app to manage notes, tasks, and daily goals easily.",
+    "size": 43,
+    "reviews": 4700,
+    "ratingAvg": 4.9,
+    "downloads": 6000000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 420 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 3050 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/ZpJQHVRW/d.webp",
+    "title": "Sectograph: Day & Time Planner",
+    "companyName": "Laboratory 27",
+    "id": 20,
+    "description": "Visualize your daily schedule as a circular clock. Perfect for visual planners and focus lovers.",
+    "size": 55,
+    "reviews": 3100,
+    "ratingAvg": 4.1,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 280 },
+      { "name": "3 star", "count": 510 },
+      { "name": "4 star", "count": 890 },
+      { "name": "5 star", "count": 1210 }
+    ]
+  }
+]
